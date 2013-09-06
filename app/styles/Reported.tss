@@ -1,0 +1,68 @@
+".container": {
+backgroundColor: "white"
+},
+
+"Tab" : {
+	icon: '/images/KS_nav_views.png',
+},
+
+"#reportedWindow" : {
+		title:"Requests",
+		layout:'vertical',
+		barColor: '#6d0a0c',
+		backgroundColor: 'transparent',
+		backgroundImage: 'images/Reported-bkgndIphone5.png'
+},
+
+"#view" : {
+	bottom : 120
+},
+
+
+"#tableview": {
+top: 15
+	},
+
+"#label": {
+	top : 5,
+	color : "black"
+	},
+
+"#lrequest": {
+	top: 5,
+	color: '#fff',
+	left : 0,
+	width : '100%'
+}
+
+"#request": {
+	top: 5,
+	left: 100,
+	color: "red"
+},
+
+"#laddress": {
+	top: 35,
+	left : 0,
+	color: '#fff',
+	width : '100%'
+}
+
+"#address": {
+	top: 35,
+	left: 100,
+	color: "green"
+},
+
+"#lstatus": {
+	top: 20,
+	left : 0,
+	color: '#fff',
+    width : '100%'
+}
+
+"#status": {
+	top: 20,
+	left: 100,
+	color: "blue"
+}

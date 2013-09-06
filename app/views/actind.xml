@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="actind"  class = "container" backgroundColor="blue">
+		 <ActivityIndicator id="activityIndicator" message="Submitting Request..."/>
+	</Window>
+</Alloy>

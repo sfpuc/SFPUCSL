@@ -1,0 +1,19 @@
+<Alloy>
+	<Window id="ReportedRow" class="container">
+		<View>
+			<Label id="lrequest"  text="Request: " />
+			<Label id="request"   text="{request}" />
+			<Label id="lstatus"   text="Status: " />
+			<Label id="status"    text="{status}" />
+			<Label id="laddress"  text="Address: " />
+			<Label id="address"   text="{address}" />					
+			<Label id="lreqtype"  text="Request Type: " />
+			<Label id="reqtype"   text="{request_type}" />
+			<Label id="lpoltype"  text="Pole Type: " />
+			<Label id="poltype"   text="{pole_type}" />
+			<Label id="ldesc"     text="Description:" />
+			<Label id="desc"      text="{desc}" />
+			<ImageView id="bigrow" image="{pngurl}" />
+		</View>
+	</Window>
+</Alloy>

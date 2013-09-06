@@ -1,0 +1,36 @@
+<Alloy>
+  <Model src="Ticket" instance="true" id="Ticket"> 
+	<Window id="newTicket"  class = "container">
+		<View id="bview">
+			<Button id="save" ></Button>
+			<Button id="cancel" ></Button>
+		</View>
+		<OptionDialog id="dialog" title="Select Request Type">
+			<Options>
+				<Option>Light Burnt Out</Option>
+				<Option>Light Flickering On</Option>
+				<Option>Light Dim</Option>
+				<Option>Light Always On</Option>
+				<Option>Electrical Wires Exposed</Option>
+				<Option>Request Light Shield</Option>
+				<Option>Request New Streetlight</Option>
+				<Option>Other</Option>
+			</Options>
+		</OptionDialog>
+		<Button id="button"></Button>
+		<Label id ="lbl"></Label>
+		<OptionDialog id="dialog1" title="Select Pole Type">
+			<Options>
+				<Option>Concrete</Option>
+				<Option>Metal</Option>
+				<Option>Wooden</Option>
+				<Option>Unknown</Option>
+			</Options>
+		</OptionDialog>
+		<Button id="button1"></Button>
+		<Label id ="lbl1"></Label>
+		<TextArea id = "area"></TextArea>
+		<ImageView id="img" image="/camera.png"></ImageView>
+		<AlertDialog id="dialog5" ></AlertDialog>
+	</Window>
+</Alloy>

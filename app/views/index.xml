@@ -1,0 +1,7 @@
+<Alloy>
+    <TabGroup id='tabGroup'>
+        <Require src="Map"/>
+        <Require src="Reported"/> 
+        <Require src="About"/>
+    </TabGroup>
+</Alloy>

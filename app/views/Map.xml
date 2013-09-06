@@ -1,0 +1,9 @@
+<Alloy>
+	<Tab id="MapTab" title="Map">
+		<Window id="mapWindow"  class = "container">
+		<View ns="Alloy.Globals.Map" id="mapview" userLocation="true" animate="true" />
+		<Button id="addproblem" title="Report a Problem" ></Button>
+		<AlertDialog id="dialog" ></AlertDialog>
+	</Window>
+	</Tab>
+</Alloy>

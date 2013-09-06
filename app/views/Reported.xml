@@ -1,0 +1,22 @@
+<Alloy>
+	<Tab id="ReportedTab" title="ReportedTab">
+		<Window id="reportedWindow"  title="Reported by me" class='container'>
+			<View id=view>
+				<Label id ="label" text = "Click on Request for more Details"/>
+				<TableView id="tableview"   dataCollection= "ticket">
+					<TableViewRow   dataId="" model="{alloy_id}">
+						<Label id = "rowBar" color="green"/>
+						<Label id="lrequest" text="Request: "/>
+						<Label id="request" text= "{request}"/>
+						<Label id="lstatus" text="Status: "/>
+						<Label id="status" text="{status}"/>
+						<Label id="laddress" text="Address: "/>
+						<Label  id="address" text="{address}"/>
+					</TableViewRow>
+				</TableView>
+				<AlertDialog id="dialog5" ></AlertDialog>
+			</View>
+		</Window>
+	</Tab>
+</Alloy>
+

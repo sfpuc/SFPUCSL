@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab id="AboutTab" title="About">
+		<Window id="mapWindow">
+		<Label id="label" />
+		<Button id="button"/>
+	</Window>
+	</Tab>
+</Alloy>

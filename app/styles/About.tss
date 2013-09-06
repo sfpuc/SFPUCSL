@@ -1,0 +1,26 @@
+".container": {
+	backgroundColor: "white"
+}
+"Tab" : {
+	icon: '/images/About-icon.png',
+},
+
+"Window": {
+		backgroundColor:'transparent',
+		backgroundImage: 'images/About-bkgndIphone5.png',
+		barColor: '#6d0a0c'
+},
+
+"#label" : {
+  color:'yellow',
+  font: { fontSize:20 },
+  text: 'Copyright, 2013. Version 1.0',
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  width: 'auto',
+  bottom: 5
+},
+
+"#button":{
+	title:"Contact Us",
+	bottom: 30
+}

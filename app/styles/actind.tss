@@ -1,0 +1,9 @@
+".container": {
+	 barColor: '#6d0a0c',
+	 backgroundColor: "white"
+},
+
+"#activityIndicator" :{
+	
+}
+ 

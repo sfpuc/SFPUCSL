@@ -1,0 +1,69 @@
+".container": {
+	 barColor: '#6d0a0c',
+	 backgroundColor: "white"
+},
+
+ "#save" :{
+	 title: 'Save',
+	 top: 10,
+	 height: Ti.UI.SIZE,
+	 left: 5,
+	 width: 100
+ },
+ 
+ "#cancel" :{
+	 title: 'Cancel',
+	 top: 10,
+	 height: Ti.UI.SIZE,
+	 right: 5,
+	 width: 100
+ },
+ 
+ "#button" :{
+	 title: 'Select Request Type',
+	 top: 75,
+	 height: Ti.UI.SIZE,
+	 width: '90%',
+	 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+ },
+ 
+ 
+ "#lbl" :{
+	 top: 125,
+	 height: Ti.UI.SIZE,
+	 width: '90%',
+	 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+ },
+ 
+ "#button1" :{
+	 title: 'Select Pole Type',
+	 top: 175,
+	 height: Ti.UI.SIZE,
+	 width: '90%',
+	 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+ },
+ 
+ 
+ "#lbl1" :{
+	 top: 225,
+	 height: Ti.UI.SIZE,
+	 width: '90%',
+	 textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+ },
+
+ "#area" :{
+	 top: 275,
+	 height: Ti.UI.SIZE,
+	 width: '90%',
+	 hintText: "Enter Description",
+	 height: 125,
+	 borderWidth: 1,
+	 borderRadius: 12
+ },
+
+"#img" :{
+	bottom: 0
+}
+
+
+

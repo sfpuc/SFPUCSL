@@ -1,0 +1,9 @@
+Modify tiapp.xml and manifest file as per Appcelerator Doc
+You need to download and setup ti.map and ti.imagefactory from the market.
+Setup ti.map for Google Map V2 according to the doc
+This app is using 2 web services --- One reads Streetlights location from the database --- You cannot call this webservice.
+You can remove my code that is used for this. This is not required.
+The other one POST to SF 311 API and reads a response from XML that is returned.
+You would need your OWN API KEY to submit 311 Request. You also cannot call this webservice but you can use Titanium Network Services
+to POST and read and parse respnose.
+Any questions or comments are Welcome.

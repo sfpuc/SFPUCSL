@@ -1,0 +1,98 @@
+".container": {
+backgroundColor: "white"
+},
+
+"#ReportedRow" : {
+		title:"Request Details",
+		layout:'vertical',
+		barColor: '#6d0a0c',
+		backgroundColor: 'transparent',
+		backgroundImage: 'images/grain.png'
+},
+
+"#View" :
+{
+	
+},
+
+"#lrequest": {
+top:5,
+left: 5,
+height: Ti.UI.SIZE
+},
+
+"#request": {
+top:5,
+height: Ti.UI.SIZE,
+left: 120,
+color: "red"
+},
+
+"#lstatus": {
+top:25,
+height: Ti.UI.SIZE,
+left: 5
+},
+
+"#status": {
+	top:25,
+	height: Ti.UI.SIZE,
+	left:120,
+	color: "blue"
+	},
+
+"#laddress": {
+	top:45,
+	height: Ti.UI.SIZE,
+	left: 5
+	},
+	
+"#address": {
+		top:45,
+		height: Ti.UI.SIZE,
+		left:120,
+		color: "green"
+		},
+		
+"#lreqtype": {
+	top:65,
+	height: Ti.UI.SIZE,
+	left: 5
+	},
+	
+"#reqtype": {
+		top:65,
+		height: Ti.UI.SIZE,
+		left:120,
+		color: "black"
+		},
+
+"#lpoltype": {
+	top:85,
+	height: Ti.UI.SIZE,
+	left: 5
+	},
+	
+"#poltype": {
+		top:85,
+		height: Ti.UI.SIZE,
+		left:120,
+		color: "black"
+		},
+						
+"#ldesc": {
+	top:100,
+	height: Ti.UI.SIZE,
+	textAlign: 'center',
+	},
+"#desc": {
+	 top:120,
+	// left: 100
+   },
+
+"#bigrow": {
+	  width: "100%",
+	  height: "250",
+	  width: 250,
+	  bottom:5
+       }
